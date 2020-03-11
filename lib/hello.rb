@@ -7,7 +7,7 @@ def hello_t(array)
 end
 
 # call your method here!
- do |name|
+hello_t() do |name|
   if name.start_with?("T")
     puts "Hi, #{name}"
   end
